@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.1;netstandard2.0;netstandard2.1</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup Label="MainGroup">
+    <Version>1.0.0</Version>
+    <PackageId>PipelineNet</PackageId>
+    <PackageTitle>PipelineNet</PackageTitle>
+    <PackageVersion>$(Version)</PackageVersion>
+    <Authors>Israel Valverde</Authors>
+    <Description>A micro framework that helps you implement pipeline and chain of responsibility patterns.</Description>
+    <PackageProjectUrl>https://github.com/ipvalverde/PipelineNet</PackageProjectUrl>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright © Israel Valverde</Copyright>
+    <PackageTags>Pipeline .NetCore Portable Chain Responsibility ChainOfResponsibility Core NetStandard</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+</PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
